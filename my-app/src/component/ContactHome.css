@@ -1,0 +1,42 @@
+/* .card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+} */
+
+.card {
+    width: 15rem;
+    height: 26rem;
+    margin: 3%;
+    float: left;
+}
+
+.card > img {
+    margin-bottom: .75rem;
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-text {
+    font-size: 85%;
+}
+
+.card:hover {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.updateButton {
+    margin-left: 10%;
+}
+
+.deleteButton {
+    margin-left: 15%;
+}
