@@ -11,7 +11,6 @@
 
 ## Getting Started
 
-See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
